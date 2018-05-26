@@ -22,7 +22,7 @@
 def reverse_each_word(string)
   array = string.split # creates array variable, gives value of string arg that splits each word of the sentence
   array.collect do |words|
-    words.reverse!
+    words.reverse! # HAD TO GOOGLE THIS ONE
   end
-  array.join(" ")
+  array.join(" ") # JOINES THE REVERSED WORDS BACK TOGETHER INSIDE QUOTES " "
 end
